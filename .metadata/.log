@@ -1,0 +1,290 @@
+!SESSION 2017-09-10 12:07:35.355 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Ray\OneDrive\181 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-10 12:07:41.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ray'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-09-10 12:08:21.161 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-10 12:08:25.453
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ray'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-10 12:10:34.840
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-10 12:10:34.840
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.840
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.840
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-10 12:10:34.840
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core 1.8.1.20170728-1531) requires 'bundle org.eclipse.core.runtime 3.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE From: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core.ui 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE To: bundle org.eclipse.m2e.core [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE From: m2e logback appender 1.8.1.20170728-1531 (org.eclipse.m2e.logback.appender 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.840
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.8.1.20170728-1531]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-10 12:10:34.924
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-10 12:10:34.924
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.924
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.924
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-10 12:10:34.924
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core 1.8.1.20170728-1531) requires 'bundle org.eclipse.core.runtime 3.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.924
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE From: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core.ui 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE To: bundle org.eclipse.m2e.core [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.924
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE From: m2e logback appender 1.8.1.20170728-1531 (org.eclipse.m2e.logback.appender 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.924
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.924
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.8.1.20170728-1531]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-10 12:10:34.941
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-10 12:10:34.941
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.941
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.942
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-10 12:10:34.942
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core 1.8.1.20170728-1531) requires 'bundle org.eclipse.core.runtime 3.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.942
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE From: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core.ui 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE To: bundle org.eclipse.m2e.core [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.942
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE From: m2e logback appender 1.8.1.20170728-1531 (org.eclipse.m2e.logback.appender 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.942
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.942
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.8.1.20170728-1531]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-10 12:10:34.951
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-10 12:10:34.951
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.951
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-10 12:10:34.951
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-10 12:10:34.951
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core 1.8.1.20170728-1531) requires 'bundle org.eclipse.core.runtime 3.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.951
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE From: Maven Integration for Eclipse 1.8.1.20170728-1531 (org.eclipse.m2e.core.ui 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE To: bundle org.eclipse.m2e.core [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.951
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE From: m2e logback appender 1.8.1.20170728-1531 (org.eclipse.m2e.logback.appender 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.8.1,1.9.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-10 12:10:34.951
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.8.1.20170728-1531 (org.eclipse.m2e.logback.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-10 12:10:34.951
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.8.1.20170728-1531]
+!SESSION 2017-09-10 12:14:39.922 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Ray/OneDrive/181/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-09-10 12:14:46.096
+!MESSAGE Unable to find feature.xml in directory: D:\Users\Ray\Desktop\eclipse\features\org.eclipse.m2e.feature_1.6.2.20150902-0002
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-10 12:14:50.804
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ray'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:20:57.516
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:20:58.522
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:20:59.564
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:00.628
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:01.700
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:05.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:05.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:06.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:21:06.949
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:56:17.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:56:17.112
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:57:20.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-10 12:57:20.071
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-09-10 13:11:50.250 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-10 13:12:10.082
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ray'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:01:22.770
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:01:22.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:13:10.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:13:10.808
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:13:23.477
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:13:23.482
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:17:15.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:17:15.315
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:18:51.308
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:18:51.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:21:27.742
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:21:27.750
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:21:28.761
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:21:28.765
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:27:15.588
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:27:15.597
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:27:47.523
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:27:47.527
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:28:49.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-11 16:28:49.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
